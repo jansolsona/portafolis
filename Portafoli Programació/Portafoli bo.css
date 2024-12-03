@@ -1,0 +1,100 @@
+body {
+    background: url("fotos\ futbol\ platja.JPG"); size: 100% 100%;
+}
+    div {font-family: Verdana, Geneva, Tahoma, sans-serif, "Helvetica Neue", Helvetica, sans-serif;}
+    body{text-align: center;}
+    .contenidor div {
+        display: flex;
+        background-color: rgb(194, 164, 164);
+        padding: 5px;
+        justify-content: space-around;
+    }
+     .item2 div {
+        background-color:rgb(12, 213, 248) ;
+        margin: auto;
+        padding: 20px;
+        justify-content: space-around;
+}
+
+.grid{  display: grid;
+    grid-template-areas: 
+    "item1 item1 item1" 
+    "item4 item4 item2"
+    "item3 item3 item2"
+    "item3 item3 item2";
+     gap: 10px; 
+    }
+
+.item1 {grid-area: item1;}
+.item2 {grid-area: item2;}
+.item3 {grid-area: item3;}
+.item4 {grid-area: item4;}
+
+
+.item4 div {
+position: relative;
+}
+.item4 div {
+    position: relative;
+    bottom: 8px;
+    left: 3px;
+    font-size: 18px;
+    margin-top:5px;
+ }
+
+ .item1{background-color: rgba(255,255,255,0.5);}
+ .item2{background-color: rgba(255,255,255,0.5);}
+ .item3{background-color: rgba(255,255,255,0.5);}
+ .item4{background-color: rgba(255,255,255,0.5);}
+
+ h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    background: linear-gradient(to rigth, rgb(8, 45, 168), blue);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(14, 38, 220, 0.995);
+ }
+ h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background: linear-gradient(to rigth, rgb(217, 255, 0), blue);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(22, 74, 243, 0.995);
+ }
+
+ 
+ h3{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    background: linear-gradient(to rigth, rgb(221, 255, 0), blue);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(10, 48, 239, 0.995);
+ }
+
+ 
+ .item2 div { 
+    position: sticky;
+    top: 0px ;
+    z-index: +1;
+    
+ }
+
+
+ h4{
+    position: fixed;
+    margin-top: 0%;   
+    text-align: right;
+    font-size: 15px;
+    padding: 20px;
+    background: linear-gradient(to rigth, rgb(212, 255, 0), blue);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(17, 71, 246, 0.995);
+    
+ }
